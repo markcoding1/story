@@ -1,7 +1,7 @@
 default day = 1
 default month = 8
 default year = 1
-default weekday_index = 0  # 0 = Monday, 1 = Tuesday, etc.
+default weekday_index = 4  # 0 = Monday, 1 = Tuesday, etc.
 default time_period = "Early Morning"
 
 # List of months with number of days (no leap year for February)
@@ -60,6 +60,16 @@ init python:
             if month > 12:
                 month = 1  # Reset to January
                 year += 1  # Increment the year if desired
+
+    # Function to add suffix to day
+    
+    def day_with_suffix(day):
+        if 10 <= day % 100 <= 20:
+            suffix = "th"
+        else:
+            suffix = {1: "st", 2: "nd", 3: "rd"}.get(day % 10, "th")
+        return f"{day}{suffix}"
+
 
 
 

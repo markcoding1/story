@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 43, in script
+    $ next_time_period()
+  File "game/script.rpy", line 43, in <module>
+    $ next_time_period()
+NameError: name 'next_time_period' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 43, in script
+    $ next_time_period()
+  File "C:\Users\rocky\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\ast.py", line 821, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\rocky\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 43, in <module>
+    $ next_time_period()
+NameError: name 'next_time_period' is not defined
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.3.2.24090902
+charSetup 1.0
+Wed Nov  6 13:11:57 2024

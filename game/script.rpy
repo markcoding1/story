@@ -41,6 +41,31 @@ label start:
     c.c "The current time is [time_period] on [weekdays[weekday_index]], [day] [month_names[month]] Year:[year]."
     c.c "lets advance time"
     $ next_time_period()
-    c.c "The current time is [time_period] on [weekdays[weekday_index]], [day] [month] Year:[year]."
-
+    c.c "The current time is [time_period] on [weekdays[weekday_index]], [day_with_suffix(day)] [month_names[month]] Year:[year]."
+    $ next_time_period()
+    c.c "The current time is [time_period] on [weekdays[weekday_index]], [day_with_suffix(day)] [month_names[month]] Year:[year]."
+    $ next_time_period()
+    c.c "The current time is [time_period] on [weekdays[weekday_index]], [day_with_suffix(day)] [month_names[month]] Year:[year]."
+    $ next_time_period()
+    c.c "The current time is [time_period] on [weekdays[weekday_index]], [day_with_suffix(day)] [month_names[month]] Year:[year]."
+    $ next_time_period()
+    c.c "The current time is [time_period] on [weekdays[weekday_index]], [day_with_suffix(day)] [month_names[month]] Year:[year]."
+    $ next_time_period()
+    c.c "The current time is [time_period] on [weekdays[weekday_index]], [day_with_suffix(day)] [month_names[month]] Year:[year]."
+    $ next_time_period()
+    c.c "The current time is [time_period] on [weekdays[weekday_index]], [day_with_suffix(day)] [month_names[month]] Year:[year]."
+    $ next_time_period()
+    c.c "The current time is [time_period] on [weekdays[weekday_index]], [day_with_suffix(day)] [month_names[month]] Year:[year]."
+    $ next_time_period()
+    c.c "The current time is [time_period] on [weekdays[weekday_index]], [day_with_suffix(day)] [month_names[month]] Year:[year]."
+    $ next_time_period()
+    c.c "The current time is [time_period] on [weekdays[weekday_index]], [day_with_suffix(day)] [month_names[month]] Year:[year]."
+    $ next_time_period()
+    c.c "The current time is [time_period] on [weekdays[weekday_index]], [day_with_suffix(day)] [month_names[month]] Year:[year]."
+    $ next_time_period()
+    c.c "The current time is [time_period] on [weekdays[weekday_index]], [day_with_suffix(day)] [month_names[month]] Year:[year]."
+    $ next_time_period()
+    c.c "The current time is [time_period] on [weekdays[weekday_index]], [day_with_suffix(day)] [month_names[month]] Year:[year]."
+    $ next_time_period()
+    c.c "The current time is [time_period] on [weekdays[weekday_index]], [day_with_suffix(day)] [month_names[month]] Year:[year]."
     return
